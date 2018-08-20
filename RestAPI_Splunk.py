@@ -30,8 +30,8 @@ def main():
     parser.add_option("-H", '--host', dest='host', default='default is our own credential')
     parser.add_option("-U", '--user', dest='username')
     parser.add_option('--passfile', dest='passfile')
-    parser.add_option("--proxy", dest="baseproxy", default='proxy.aetna.com:9119', help='default: proxy.aetna.com:9119')
-    parser.add_option("--url", dest="baseurl", default='https://RESTLibrary.aetna.com', help='default: https://RESTLibrary.aetna.com')
+    parser.add_option("--proxy", dest="baseproxy")
+    parser.add_option("--url", dest="baseurl")
     parser.add_option("--query", dest="query", default='index=hadoop-audit-logs sourcetype=queue-stats | search earliest_time=-1d', 
                       help='default: index=hadoop-audit-logs sourcetype=queue-stats | earliest=-1d')    
     
