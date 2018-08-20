@@ -1,5 +1,5 @@
 ################################################################################
-# RestAPI_Splunk.py  -  retrieve hadoop log statistics from Splunk               #
+# RestAPI_Splunk.py  -  retrieve hadoop log statistics from Splunk             #
 # ver 1.0                                                                      #
 # Language:    Python                                                          #
 # Platform:    Python 2.6.6                                                    #
